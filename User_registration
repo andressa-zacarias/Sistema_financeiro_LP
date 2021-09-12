@@ -1,1 +1,25 @@
+using System;
+
+namespace Financial_System.User_Login
+{
+    public class User_data
+    {
+        public User_data(string name, string email, int password, string cpf)
+        {
+            Name = name
+            Email = email
+            Password = password
+            Cpf = cpf
+        }
+
+        public string Name { get; }
+
+        public string Email { get; }
+
+        public int Password { get; }
+
+        public string Cpf { get; }
+
+    }
+}
 
